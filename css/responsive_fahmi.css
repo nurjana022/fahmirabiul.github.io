@@ -1,0 +1,68 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .whyus-main-row {
+        margin-top: 1em;
+    }
+
+
+    /* Clear floats after the columns */
+    .whyus-main-row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .whyus-item-row {
+        height: 8em;
+    }
+
+    .whyus-item-row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+    /* Create two equal columns that floats next to each other */
+    .whyus-main-col {
+        float: left;
+        width: 100%;
+        padding: 10px;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .whyus-img-col {
+        margin-top: 0em;
+        float: left;
+        width: 20%;
+        padding: 10px;
+        height: 4em;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .whyus-text-col {
+        float: left;
+        width: 80%;
+        padding: 10px;
+        height: 4em;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .whyus-image {
+        display: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}

@@ -84,7 +84,7 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
+  position: fixed;
   top: 0;
   z-index: 10;
 }
@@ -116,7 +116,7 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.menu-icon{
+.menu-icon {
   color: white;
   float: right;
   font-size: 25px;
