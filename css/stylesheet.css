@@ -23,11 +23,10 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url('../images/coffee.png');
+  background-image: url('../images/coffee.jpg');
   background-size: cover;
   color: white;
   text-align: center;
-  margin-top: 10em;
 }
 
 .top-wrapper h1 {
